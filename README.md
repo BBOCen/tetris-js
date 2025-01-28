@@ -4,7 +4,7 @@ Este proyecto recrea el icónico juego de Tetris utilizando JavaScript, CSS y HT
 
 🚀 Características principales:
 
-Generación del Tablero y Piezas
+🔹 Generación del Tablero y Piezas
 
 Tablero de juego dinámico:
 Una cuadrícula de 10 columnas x 20 filas se genera en un contenedor <div> con la clase tablero. Cada celda es un <div> individual, lo que permite gestionarlas visual y funcionalmente.
@@ -15,7 +15,7 @@ Representadas como arrays bidimensionales (matrices), las piezas clásicas como 
 Rotación de piezas:
 Función para rotar las matrices, cambiando la orientación de las piezas durante el juego.
 
-Interacción y Movimiento de Piezas
+🔹 Interacción y Movimiento de Piezas
 
 Movimiento automático:
 Las piezas caen automáticamente hacia abajo con intervalos regulares (simulando gravedad).
@@ -30,7 +30,7 @@ Abajo (↓): Acelerar la caída de la pieza.
 
 Rotar (↑): Rotar la pieza en sentido horario.
 
-Colisiones y límites:
+🔹 Colisiones y límites:
 Las piezas no pueden atravesar los bordes del tablero ni superponerse con otras piezas.
 
 Fijar piezas y generar nuevas
@@ -41,11 +41,11 @@ Una nueva pieza aparece automáticamente en la parte superior del tablero.
 
 🧩 Mecánicas avanzadas:
 
-Borrado de líneas completas
+🔹 Borrado de líneas completas
 
 Cuando una fila se llena completamente, esta se elimina y todas las filas superiores descienden una posición.
 
-Sistema de puntuación y dificultad
+🔹 Sistema de puntuación y dificultad
 
 Puntos:
 +100 puntos por cada línea completada.
@@ -53,7 +53,7 @@ Puntos:
 Aumento de dificultad:
 La velocidad de caída de las piezas incrementa con el progreso del jugador.
 
-Estado del juego
+🔹 Estado del juego
 
 Game Over:
 Si no hay espacio para generar una nueva pieza al inicio, se muestra un mensaje de "Game Over" y el juego se detiene.
