@@ -13,7 +13,7 @@
 <h3>🎲 Generación del Tablero y Piezas</h3>
 <ul>
   <li><strong>Tablero de juego dinámico:</strong> 
-    Una cuadrícula de <strong>10 columnas x 20 filas</strong> se genera en un contenedor <code>&lt;div&gt;</code> con la clase <code>tablero</code>. 
+    Una cuadrícula de <strong>10 columnas x 20 filas</strong> se genera en un contenedor <code>&lt;div&gt;</code>. 
     Cada celda es un <code>&lt;div&gt;</code> individual, lo que permite gestionarlas visual y funcionalmente.
   </li>
   <li><strong>Piezas del Tetris:</strong>
