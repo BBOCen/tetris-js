@@ -7,10 +7,10 @@ Este proyecto recrea el icónico juego de Tetris utilizando JavaScript, CSS y HT
 🔹 Generación del Tablero y Piezas
 
 Tablero de juego dinámico:
-Una cuadrícula de 10 columnas x 20 filas se genera en un contenedor <div> con la clase tablero. Cada celda es un <div> individual, lo que permite gestionarlas visual y funcionalmente.
+Una cuadrícula de 10 columnas x 20 filas se genera en un contenedor. Cada celda es un div individual, lo que permite gestionarlas visual y funcionalmente.
 
 Piezas del Tetris:
-Representadas como arrays bidimensionales (matrices), las piezas clásicas como I, O, T, L, y Z están implementadas.
+Representadas como arrays bidimensionales (matrices), todas las piezas clásicas están implementadas.
 
 Rotación de piezas:
 Función para rotar las matrices, cambiando la orientación de las piezas durante el juego.
