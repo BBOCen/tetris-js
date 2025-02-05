@@ -1,4 +1,4 @@
-<h1 align="center">🎮 Second Minigame: Tetris 🎮</h1>
+<h1 align="center">🎮 Tetris 🎮</h1>
 
 <p align="center">
   This project recreates the iconic game of Tetris using JavaScript, CSS, and HTML. 
